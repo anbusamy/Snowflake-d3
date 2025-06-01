@@ -1,0 +1,473 @@
+{
+    "name": "Snowflake Access Tree",
+    "children": [
+        {
+            "name": "JIOSIM201921",
+            "children": [
+                {
+                    "name": "ORGADMIN",
+                    "children": []
+                },
+                {
+                    "name": "ACCOUNTADMIN",
+                    "children": [
+                        {
+                            "name": "SCHEMA: SNOWFLAKE_LEARNING_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: SNOWFLAKE_SAMPLE_DATA [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: SNOWFLAKE_LEARNING_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [OWNERSHIP]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SNOWFLAKE",
+            "children": [
+                {
+                    "name": "ACCOUNTADMIN",
+                    "children": [
+                        {
+                            "name": "SCHEMA: SNOWFLAKE_LEARNING_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: SNOWFLAKE_SAMPLE_DATA [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: SNOWFLAKE_LEARNING_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [OWNERSHIP]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_ALEX",
+            "children": [
+                {
+                    "name": "ACCOUNTADMIN",
+                    "children": [
+                        {
+                            "name": "SCHEMA: SNOWFLAKE_LEARNING_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: SNOWFLAKE_SAMPLE_DATA [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: SNOWFLAKE_LEARNING_DB [OWNERSHIP]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [OWNERSHIP]"
+                        }
+                    ]
+                },
+                {
+                    "name": "ROLE_SALES",
+                    "children": [
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_ELLA",
+            "children": [
+                {
+                    "name": "ROLE_ANALYTICS",
+                    "children": [
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_JANE",
+            "children": [
+                {
+                    "name": "ROLE_SUPPORT",
+                    "children": [
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_KYLE",
+            "children": [
+                {
+                    "name": "ROLE_DEV",
+                    "children": [
+                        {
+                            "name": "TABLE: RANDOM_DB [UPDATE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [INSERT]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_LISA",
+            "children": [
+                {
+                    "name": "ROLE_SALES",
+                    "children": [
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_MIKE",
+            "children": [
+                {
+                    "name": "ROLE_DEV",
+                    "children": [
+                        {
+                            "name": "TABLE: RANDOM_DB [UPDATE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [INSERT]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_NINA",
+            "children": [
+                {
+                    "name": "ROLE_ADMIN",
+                    "children": [
+                        {
+                            "name": "SCHEMA: RANDOM_DB [ADD SEARCH OPTIMIZATION]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE EVENT TABLE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE MODEL MONITOR]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [REBUILD]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [INSERT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE ICEBERG TABLE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE STREAMLIT]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [CREATE SCHEMA]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE PACKAGES POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE RESOURCE GROUP]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE SEQUENCE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE TASK]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [DELETE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [EXECUTE AUTO CLASSIFICATION]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE PIPE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [REFERENCES]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE DATA METRIC FUNCTION]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE DATASET]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE SESSION POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE ROW ACCESS POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE TABLE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [CREATE DATABASE ROLE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE ARTIFACT REPOSITORY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE GIT REPOSITORY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE MODEL]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE NETWORK RULE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [MODIFY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE AUTHENTICATION POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE STAGE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE FEATURE POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE FILE FORMAT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE CORTEX SEARCH SERVICE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [APPLYBUDGET]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [MONITOR]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE VIEW]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE FUNCTION]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE ALERT]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [TRUNCATE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE PROJECTION POLICY]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [APPLYBUDGET]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE STREAM]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE PASSWORD POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [MONITOR]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE PROCEDURE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE NOTEBOOK]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [EVOLVE SCHEMA]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [MODIFY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE PRIVACY POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE MASKING POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [APPLYBUDGET]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE CONTACT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE WORKSPACE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE EXTERNAL AGENT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE TEMPORARY TABLE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE SECRET]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE JOIN POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE TAG]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE EXTERNAL TABLE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [UPDATE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE SEMANTIC VIEW]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE AGGREGATION POLICY]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE DYNAMIC TABLE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE SNAPSHOT]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [CREATE MATERIALIZED VIEW]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_OMAR",
+            "children": [
+                {
+                    "name": "ROLE_ANALYTICS",
+                    "children": [
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_RYAN",
+            "children": [
+                {
+                    "name": "ROLE_SUPPORT",
+                    "children": [
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "TABLE: RANDOM_DB [SELECT]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "USER_TINA",
+            "children": [
+                {
+                    "name": "ROLE_SALES",
+                    "children": [
+                        {
+                            "name": "SCHEMA: RANDOM_DB [USAGE]"
+                        },
+                        {
+                            "name": "DATABASE: RANDOM_DB [USAGE]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
